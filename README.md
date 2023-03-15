@@ -1,5 +1,4 @@
 # Pints Coding Task 
-***
 > Frontend: `TypeScript React`, Backend:` ExpressJS`
 ![demo](./demo.png)
 
