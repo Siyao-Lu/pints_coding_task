@@ -1,0 +1,73 @@
+.card {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    max-width: 400px;
+    padding: 0.75rem;
+    border-bottom: 0.25rem solid #f5f5f5;
+}
+
+.card-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+    background-color: #f5f5f5;
+    border: 0.4rem solid #f5f5f5;
+    flex-direction: column;
+}
+
+.card-info {
+    flex-grow: 1;
+    margin-left: 1rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-symbol {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-name {
+    font-size: 0.75rem;
+    color: #6c757d;
+}
+
+.card-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-changes.up {
+    font-size: 0.75rem;
+    color: #008000;
+    display: flex;
+    align-items: center;
+}
+
+.card-changes.down {
+    font-size: 0.75rem;
+    color: #FF0000;
+    display: flex;
+    align-items: center;
+}
+
+.card-arrow {
+    margin-right: 0.25rem;
+}
+
+.card-change {
+    margin-right: 2rem;
+}
